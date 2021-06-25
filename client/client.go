@@ -8,7 +8,7 @@ import (
 	"io/ioutil"
 	"net/http"
 
-	"github.com/Syfaro/mcapi/types"
+	"github.com/andresperezl/mcapi/types"
 )
 
 // APIEndpoint is the endpoint to use for requesting any information.

@@ -1,3 +1,3 @@
-module github.com/Syfaro/mcapi
+module github.com/andresperezl/mcapi
 
 go 1.13
