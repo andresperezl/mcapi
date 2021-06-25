@@ -12,7 +12,7 @@ import (
 )
 
 // APIEndpoint is the endpoint to use for requesting any information.
-var APIEndpoint = "https://mcapi.us"
+var APIEndpoint = "https://status.yeetstreet.org"
 
 // GetServerStatus allows you to ping a server and get basic information.
 func GetServerStatus(ip string, port int) (*types.ServerStatus, error) {

@@ -6,7 +6,7 @@ import (
 )
 
 func TestGetServerStatusGood(t *testing.T) {
-	_, err := GetServerStatus("mc.syfaro.net", 25565)
+	_, err := GetServerStatus("minecraft.yeetstreet.org", 25577)
 	if err != nil {
 		t.Log(err)
 		t.Fail()
@@ -22,7 +22,7 @@ func TestGetServerStatusBad(t *testing.T) {
 }
 
 func ExampleGetServerStatus() {
-	status, err := GetServerStatus("mc.syfaro.net", 25565)
+	status, err := GetServerStatus("minecraft.yeetstreet.org", 25577)
 	if err != nil {
 		panic(err)
 	}
@@ -34,7 +34,7 @@ func ExampleGetServerStatus() {
 }
 
 func TestGetServerQueryGood(t *testing.T) {
-	_, err := GetServerQuery("mc.syfaro.net", 25565)
+	_, err := GetServerQuery("minecraft.yeetstreet.org", 25577)
 	if err != nil {
 		t.Log(err)
 		t.Fail()
@@ -50,7 +50,7 @@ func TestGetServerQueryBad(t *testing.T) {
 }
 
 func ExampleGetServerQuery() {
-	status, err := GetServerQuery("mc.syfaro.net", 25565)
+	status, err := GetServerQuery("minecraft.yeetstreet.org", 25577)
 	if err != nil {
 		panic(err)
 	}
